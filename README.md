@@ -4,7 +4,7 @@ Unified repository for managing Prometheus alerts using Jsonnet templates. It pr
 
 🚀 Key Features:
   - Template-based Alerts: Uses Jsonnet for reusable and modular alert definitions  
-	-	Pre-commit Hooks: Ensures validation and formatting before commits  
+  -	Pre-commit Hooks: Ensures validation and formatting before commits  
 	-	Automated Unit Testing: Supports Prometheus unit tests for alert rules  
 	-	Team-Specific Configurations: Allows customization for different teams  
 	-	Docker-Based Execution: Simplifies alert generation and deployment with containerized workflows  
