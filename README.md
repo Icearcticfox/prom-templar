@@ -1,20 +1,20 @@
 # Prom-templar
 
-Prom-templar is a unified repository for managing Prometheus alerts using Jsonnet templates. It provides a structured approach to defining, testing, and deploying alerting rules for different teams.
+Unified repository for managing Prometheus alerts using Jsonnet templates. It provides a structured approach to defining, testing, and deploying alerting rules for different teams.
 
 🚀 Key Features:
-	•	Template-based Alerts: Uses Jsonnet for reusable and modular alert definitions.
-	•	Pre-commit Hooks: Ensures validation and formatting before commits.
-	•	Automated Unit Testing: Supports Prometheus unit tests for alert rules.
-	•	Team-Specific Configurations: Allows customization for different teams.
-	•	Docker-Based Execution: Simplifies alert generation and deployment with containerized workflows.
+  - Template-based Alerts: Uses Jsonnet for reusable and modular alert definitions  
+	-	Pre-commit Hooks: Ensures validation and formatting before commits  
+	-	Automated Unit Testing: Supports Prometheus unit tests for alert rules  
+	-	Team-Specific Configurations: Allows customization for different teams  
+	-	Docker-Based Execution: Simplifies alert generation and deployment with containerized workflows  
 
 🛠 How It Works:
-	1.	Users define alerts in Jsonnet templates.
-	2.	Alerts are compiled into Prometheus-compatible YAML.
-	3.	Automated unit tests validate alert logic.
-	4.	A pre-commit hook ensures correctness before pushing to version control.
-	5.	YAML files are deployed to Prometheus for monitoring and alerting.
+	1.	Users define alerts in Jsonnet templates  
+	2.	Alerts are compiled into Prometheus-compatible YAML  
+	3.	Automated unit tests validate alert logic  
+	4.	A pre-commit hook ensures correctness before pushing to version control  
+	5.	YAML files are deployed to Prometheus for monitoring and alerting  
 
 This toolkit streamlines alert management, ensures consistency, and improves the reliability of Prometheus-based monitoring setups.
 
